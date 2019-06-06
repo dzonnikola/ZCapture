@@ -22,19 +22,6 @@ namespace WindowsFormsApp1
             InitializeComponent();
             this.KeyPreview = true;
         }
-        //private void PickFormat()
-        //{
-        //    if (radioButton1.Checked)
-        //        saveFileDialog.Filter = ".jpg | *.jpg";
-        //    else if (radioButton2.Checked)
-        //        saveFileDialog.Filter = ".png | *.png";
-        //    else if (radioButton3.Checked)
-        //        saveFileDialog.Filter = ".bmp | *.bmp";
-        //    else if (radioButton4.Checked)
-        //        saveFileDialog.Filter = ".tiff | *.tiff";
-        //    else
-        //        MessageBox.Show("Pick a format!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-        //}
         private void ScreenShot() //Method ScreenShot - does 95% of the job
         {
             try
