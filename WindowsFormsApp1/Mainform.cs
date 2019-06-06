@@ -13,11 +13,11 @@ using System.IO;
 
 namespace WindowsFormsApp1
 {
-    public partial class Form1 : Form
+    public partial class Mainform : Form
     {
         public string defaultpath = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
 
-        public Form1()
+        public Mainform()
         {
             InitializeComponent();
             this.KeyPreview = true;
@@ -74,7 +74,7 @@ namespace WindowsFormsApp1
 
         private void Form1_Load(object sender, EventArgs e) //In Form load there are some pre-sets 
         {
-            Application.OpenForms["Form1"].BringToFront();
+            Application.OpenForms["Mainform"].BringToFront();
             tbDir.Text = defaultpath;
             tbHot.ReadOnly = true;
         }

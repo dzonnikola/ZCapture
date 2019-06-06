@@ -1,6 +1,6 @@
 ﻿namespace WindowsFormsApp1
 {
-    partial class Form1
+    partial class Mainform
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Mainform));
             this.btnSS = new System.Windows.Forms.Button();
             this.tbDir = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -51,7 +51,7 @@
             // 
             this.btnSS.Location = new System.Drawing.Point(12, 170);
             this.btnSS.Name = "btnSS";
-            this.btnSS.Size = new System.Drawing.Size(136, 37);
+            this.btnSS.Size = new System.Drawing.Size(146, 37);
             this.btnSS.TabIndex = 0;
             this.btnSS.Text = "Take a screenshot";
             this.btnSS.UseVisualStyleBackColor = true;
@@ -88,7 +88,7 @@
             // 
             this.btnOpenfolder.Location = new System.Drawing.Point(12, 117);
             this.btnOpenfolder.Name = "btnOpenfolder";
-            this.btnOpenfolder.Size = new System.Drawing.Size(136, 37);
+            this.btnOpenfolder.Size = new System.Drawing.Size(146, 37);
             this.btnOpenfolder.TabIndex = 6;
             this.btnOpenfolder.Text = "View saving folder";
             this.btnOpenfolder.UseVisualStyleBackColor = true;
@@ -132,7 +132,7 @@
             this.tbHot.Location = new System.Drawing.Point(104, 223);
             this.tbHot.Name = "tbHot";
             this.tbHot.ReadOnly = true;
-            this.tbHot.Size = new System.Drawing.Size(44, 20);
+            this.tbHot.Size = new System.Drawing.Size(54, 20);
             this.tbHot.TabIndex = 9;
             // 
             // pictureBox1
@@ -145,7 +145,7 @@
             this.pictureBox1.TabIndex = 12;
             this.pictureBox1.TabStop = false;
             // 
-            // Form1
+            // Mainform
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -163,7 +163,7 @@
             this.Controls.Add(this.btnSS);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
-            this.Name = "Form1";
+            this.Name = "Mainform";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Z-Capture";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
